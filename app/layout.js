@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
 
         <footer>
-          <p>© 2026 Mia Mogensen</p>
+          <p>© 2026 Mia Michelle Mogensen</p>
         </footer>
       </body>
     </html>
