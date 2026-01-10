@@ -17,6 +17,42 @@
   background-color: var(--background);
 }
 
+.home {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 48px;
+}
+
+.weekList {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0 0;
+  display: grid;
+  gap: 12px;
+  max-width: 620px;
+}
+
+.weekItem {
+  background: #ffffff9c;
+  border: 1px solid #41729f;
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease, transform 0.1s ease, border-color 0.2s ease;
+}
+
+.weekLink {
+  display: block;
+  padding: 12px 14px;
+  color: inherit;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.weekItem:hover {
+  border-color: #3c648a;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+}
+
 .main {
   display: flex;
   min-height: 100vh;
@@ -138,4 +174,8 @@ a.secondary {
     --button-secondary-hover: #1a1a1a;
     --button-secondary-border: #1a1a1a;
   }
+}
+
+.ugeoversigt {
+  margin-top: 80px;
 }

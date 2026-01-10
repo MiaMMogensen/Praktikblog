@@ -1,0 +1,38 @@
+.header {
+  padding: 15px clamp(18px, 4vw, 32px);
+  z-index: 100;
+  background-color: #edeee8;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 12px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+}
+
+.logo {
+  height: 56px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.25));
+  justify-self: start;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  justify-self: center;
+  color: #41729f;
+}
+
+.subtitle {
+  margin: 0;
+  justify-self: end;
+  text-align: right;
+  color: #41729f;
+}
