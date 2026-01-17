@@ -37,7 +37,7 @@ export default async function PraktikUge({ params }) {
 
             {uge.laeringsmaal?.length ? (
               <>
-                <h4 className={styles.subTitle}>Læringsmål</h4>
+                <h4 className={styles.subTitle}>Læringsmål arbejdet med:</h4>
                 <ul className={styles.list}>
                   {uge.laeringsmaal.map((maal, i) => (
                     <li key={i}>{maal}</li>
