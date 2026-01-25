@@ -83,6 +83,45 @@ Fredag skulle prisberegneren testes internt, og der kom pludselig ændringer, so
 Alt i alt har uge 2 været rigtig lærerig, og jeg kan mærke, at jeg udvikler mig teknisk. Jeg er spændt på at fortsætte arbejdet med prisberegneren og implementere de ændringer, der er kommet, så jeg kan levere et endnu bedre resultat.
 `.trim(),
   },
+  {
+    slug: "uge-3",
+    uge: "Uge 3",
+    titel: "Prisberegneren går live",
+    dato: "19.- 23. januar 2026",
+
+    spontanlog: [
+      "Modtog en liste med forbedringer til prisberegneren",
+      "Arbejdede med mindre justeringer i design og funktionalitet",
+      "Tilføjede en ny fane/sektion med simpelt indhold",
+      "Designede ændringerne og fik dem godkendt",
+      "Implementerede ændringerne i HubSpot",
+      "Brugte meget tid på debugging",
+      'Oplevede at skulle "dykke ned i koden igen", selvom løsningen føltes tæt på færdig',
+      "Opstart på ny opgave med testimonials-sektion",
+      "Startede designovervejelser omkring optimering, animationer og farver",
+      "Prisberegneren blev godkendt og lagt live på hjemmesiden",
+    ],
+
+    laeringsmaal: [
+      "Jeg vil lære at arbejde sikkert og selvstændigt i HubSpot ved at forstå CMS-strukturen, moduler, temaer og centrale funktioner",
+      "Jeg vil lære at udvikle webmoduler i HubSpot, som både er teknisk korrekt opbygget og designet med fokus på brugervenlighed og SEO",
+      "Jeg vil lære at modtage, forstå og implementere feedback på både designvalg og tekniske løsninger og bruge det til at forbedre mine projekter",
+    ],
+
+    refleksionslog: `
+Den tredje uge handlede i høj grad om iteration og færdiggørelse. Jeg fik en liste med forbedringer til prisberegneren, som primært betod af mindre justeringer som hover-effekter, hjælpetekster og en ekstra fane med indhold. Overordnet set virkede det til, at løsningen var på rette vej, hvilket var rart, selvom det også betød, at jeg skulle tilbage i både design og kodearbejdet igen.
+
+Jeg kunne godt mærke, at det krævede lidt ekstra mentalt at skulle "hive mig selv op" og dykke ned i koden igen, fordi jeg havde en følelse af, at opgaven næsten var færdig. Samtidig ved jeg også, at netop de små detaljer er vigtige for det samlede resultat, og jeg vil gerne levere et produkt, jeg selv kan stå inde for. Det har været en læring for mig, at iterative ændringer er en naturlig del af arbejdet, også selvom det nogle gange kan føles lidt tungt.
+
+Ugen bestod ellers primært af kodning og debugging. Det er ikke den mest spændende del af processen, men jeg kan mærke, at jeg bliver bedre til at fejlsøge og forstå, hvorfor ting ikke virker, som jeg forventer. Det giver mig mere ro i arbejdet, fordi jeg efterhånden har en bedre fornemmelse for, hvordan jeg skal gribe problemer an.
+
+Fredag skete der noget ret stort, da prisberegneren pludselig blev godkendt og lagt live på hjemmesiden. Det var ret nervepirrende at vide, at noget jeg har lavet nu er i produktion og kan bruges af rigtige kunder, men samtidig var det også virkelig fedt. Det gav mig en stor følelse af, at mit arbejde skaber reel værdi for virksomheden, og at de har tillid til mig og mit arbejde.
+
+Sidst på ugen gik vi igang med en ny opgave omkring testimonials. Her skal en eksisterende sektion laves om til et globalt modul, så ændringer kun skal laves ét sted i stedet for på alle sider. Det gav mig endnu et inblik i, hvordan man tænker mere langsigtet og vedligeholdelsesvenligt i HubSpot. Jeg er startet på designfasen og har fået lov til at kigge på små optimeringer i forhold til udtryk, animationer og farver, hvilket jeg synes er spændende.
+
+Der kan godt komme flere små ændringer til prisberegneren på et senere tidspunkt, men ellers føles det som et naturligt skifte videre til næste opgave, og det er rart både at afslutte noget og samtidig have nye udfordringer foran sig.
+`.trim(),
+  },
 ];
 
 export default praktikUger;
