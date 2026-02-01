@@ -122,6 +122,42 @@ Sidst på ugen gik vi igang med en ny opgave omkring testimonials. Her skal en e
 Der kan godt komme flere små ændringer til prisberegneren på et senere tidspunkt, men ellers føles det som et naturligt skifte videre til næste opgave, og det er rart både at afslutte noget og samtidig have nye udfordringer foran sig.
 `.trim(),
   },
+  {
+    slug: "uge-4",
+    uge: "Uge 4",
+    titel: "Arbejde med globale moduler og animationer i HubSpot",
+    dato: "26.- 30. januar 2026",
+
+    spontanlog: [
+      "Syg de første tre dage af ugen",
+      "Torsdag tilbage i praktik",
+      "Fortsættelse af testimonials-opgaven",
+      "Færdiggørrelse af mindre designændringer og optimeringer af den eksisterende sektion",
+      "Gennemgang af YouTube-videoer og dokumentation om globale moduler i HubSpot",
+      "Opstart af kodning af globalt modul",
+      "Arbejde med custom fields og HubSpots editor",
+      "Fokus på animationer og visuelle effekter",
+      "God fremdrift i opgaven inden weekenden",
+    ],
+
+    laeringsmaal: [
+      "Jeg vil lære at arbejde sikkert og selvstændigt i HubSpot ved at forstå CMS-strukturen, moduler, temaer og centrale funktioner",
+      "Jeg vil lære at udvikle webmoduler i HubSpot, som både er teknisk korrekt opbygget og designet med fokus på brugervenlighed og SEO",
+    ],
+
+    refleksionslog: `
+Ugen startede lidt hårdt ud, da jeg var syg de første tre dage. Da jeg torsdag var næsten frisk igen, valgte jeg at tage i praktik og fortsætte arbejdet. Det var rart at komme tilbage og hurtigt kunne samle tråden op igen.
+
+Jeg fortsatte arbejdet med testimonials-opgaven, hvor de små designændringer allerede var færdige tidligt på dagen, og jeg derfor kunne gå videre med kodningen. Da globale moduler i HubSpot er nyt for mig, brugte jeg noget tid på at se YouTube-videoer og læste dokumentation, både før og imens jeg var igang. Det gav mig en bedre forståelse for strukturen og måden man arbejder med globale moduler på.
+
+Selve kodningen gik overraskende hurtigt. Selvom det ikke er kompleks kode, er det anderledes end det, jeg er vant til, da HubSpot kræber brug af custom fields og indbyggede funktioner frem for hardcoded løsninger. Jeg kan dog mærke, at jeg begynder at få bedre styr på det.
+
+Der er meget fokus på animationer i denne opgave, da det er et område, jeg skal optimere. Ud over at modulet bliver globalt og dermed mere effektivt at vedligeholde, har jeg arbejdet med at gøre det mere levende gennem forskellige animationer.
+
+Da jeg gik på weeekend, var jeg allerede et godt stykke vej med opgaven. Selvom ugen blev kort, føler jeg, at jeg har fået lavet en del, og jeg er klar og motiveret til at fortsætte i næste uge.
+    
+`.trim(),
+  },
 ];
 
 export default praktikUger;
