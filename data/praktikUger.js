@@ -158,6 +158,92 @@ Da jeg gik på weeekend, var jeg allerede et godt stykke vej med opgaven. Selvom
     
 `.trim(),
   },
+  {
+    slug: "uge-5",
+    uge: "Uge 5",
+    titel: "Testimonials går live og videreudvikling af prisberegneren",
+    dato: "2.- 6. februar 2026",
+
+    spontanlog: [
+      "Fortsættelse af testimonials-opgaven",
+      "Debbugging af scroll-animation og tilpasning til slider på mobil",
+      "Det globale modul gik live tirsdag",
+      "Tilbage til prisberegneren",
+      "Feedback fra Johannes efter kundemøder",
+      "Beslutning om at ændre filter tags til bundles",
+      "Designændringer i Figma",
+      "Udvikling af fold-ud funktion til bundles",
+      "Kodning af ny logik i prisberegneren",
+      "Hjemmearbejdsdag fredag og arbejde på praktikrapport",
+    ],
+
+    laeringsmaal: [
+      "Jeg vil lære at arbejde sikkert og selvstændigt i HubSpot ved at forstå CMS-strukturen, moduler, temaer og centrale funktioner",
+      "Jeg vil lære at udvikle webmoduler i HubSpot, som både er teknisk korrekt opbygget og designet med fokus på brugervenlighed og SEO",
+      "Jeg vil lære at modtage, forstå og implementere feedback på både designvalg og tekniske løsninger og bruge det til at forbedre mine projekter.",
+    ],
+
+    refleksionslog: `
+Uge 5 startede med, at jeg fortsatte arbejdet på testimonials-modulet. Der opstod en del debugging i forbindelse med en scroll-animation, som skulle ændres til en slider på mobil, og det gav nogle tekniske udfordringer. Det lykkedes dog til sidst, og modulet gik live tirsdag eftermiddag. Det var en kortere og mere overskuelig opgave sammenlignet med prisberegneren, og det var rart hurtigt at kunne se et færdigt produkt komme online.
+
+Tirsdag fik jeg at vide, at prisberegneren allerede var blevet brugt i kundemøder, og at den fungerede rigtig godt. Det gjorde mig meget glad. Der var dog nogle små justeringer i forhold til filter tags, som skulle ændres. Det handlede ikke om, at funktionaliteten ikke virkede, men mere om at den oprindelige idé fra Johannes kunne forbedres. Jeg ser det derfor ikke som en fejl, men som en naturlig del af en iterativ proces, hvor løsningen udvikler sig undervejs.
+
+Det føles virkelig fedt at have noget på en rigtig virksomhedsside, som jeg selv har kodet fra bunden. Jeg er selv blevet meget tilfreds med resultatet, og det virker også til, at både Frederik og Johannes er glade for løsningen. Samtidig er det lidt underligt, og også lidt nøjern, at tænke på, at rigtige kunder sidder og bruger noget, jeg har udviklet.
+
+Onsdag fik vi afklaret, hvad der skulle ændres, og jeg fik igang med at omstrukturere logikken. Selvom jeg kunne genbruge noget af den eksisterende filter funktionalitet, krævede det stadig en del tilpasning.
+
+De nye tilføjelser omfattede både design og kode, så jeg lavede forskellige versioner i Figma for at finde frem til den bedste løsning. Det var rart igen at arbejde kreativt i Figma, selvom det var mindre ændringer. I stedet for filter tags skulle det være muligt at vælge bundles, som skulle vises samlet i kurven. Jeg kom selv med en idé om en fold-ud funktion til at vise indholdet i et bundle, og den løsning blev både Frederik og Johannes meget begejstrede for. Det var motiverende at opleve, at min egen idé blev valgt og implementeret.
+
+Resten af onsdag og torsdag gik med at programmere den nye funktionalitet, og fredag arbejdede jeg hjemmefra på grund af snestorm, hvor jeg blandt andet fik skrevet på praktikrapporten.
+
+Overordnet har ugen givet mig en stærk følelse af ansvar og ejerskab. Det er både motiverende og en smule nervepirrende at vide, at løsningerne bliver brugt i virkelige kundesituationer, men det giver også en stor faglig tilfredsstillelse at se, at de fungerer i praksis.  
+
+`.trim(),
+  },
+  {
+    slug: "uge-6",
+    uge: "Uge 6",
+    titel: "Dynamiske moduler og arbejde med HubDB",
+    dato: "9.- 13. februar 2026",
+
+    spontanlog: [
+      "Ny opgave: udvikling af logo slider/banner som globalt modul",
+      "Kodning fra bunden med scroll, hover og drag funktionalitet",
+      "Ny opgave: gøre eksisterende navigationsmenu mobilvenlig",
+      "Ny idé til logo banner: flip card hover effekt på logoer med case studies",
+      "Logo banner færdigt onsdag formiddag",
+      "Opgave: udvikling af brødkrumme, sidemenu og artikeloversigt via HubDB",
+      "Oprettelse og strukturering af artikeldata i HubDB",
+      "Udvikling af dynamisk sidemenu med kategorier",
+      "Udvikling af dynamisk brødkrumme baseret på URL og database",
+      "Design af artikeloversigtsside i Figma",
+      "Udvikling af dynamisk artikeloversigt, der trækker data fra HubDB",
+    ],
+
+    laeringsmaal: [
+      "Jeg vil lære at arbejde sikkert og selvstændigt i HubSpot ved at forstå CMS-strukturen, moduler, temaer og centrale funktioner",
+      "Jeg vil lære at udvikle webmoduler i HubSpot, som både er teknisk korrekt opbygget og designet med fokus på brugervenlighed og SEO",
+      "Jeg vil lære at opsætte dynamisk indhold på websitet ved at anvende HujbSpot’s API’er og automatiseringsmuligheder, så data som tal og logoer kan opdateres uden manuel indtastning.",
+      "Jeg vil lære at modtage, forstå og implementere feedback på både designvalg og tekniske løsninger og bruge det til at forbedre mine projekter.",
+    ],
+
+    refleksionslog: `
+Uge 6 startede med en mindre opgave, hvor jeg skulle lave et logo slider/banner som globalt modul. Selvom der allerede fandtes en lignende løsning på siden, kodede jeg modulet helt fra bunden. Funktionaliteten mindede meget om testimonials opgaven, hvilket gjorde det muligt at genbruge en del JavaScript og tilpasse til den nye kontekst. Det betød også, at opgaven blev løst relativt hurtigt.
+
+Selvom det ikke var den mest komplekse opgave læringsmæssigt, gav det stadig værdi i form af rutine og sikkerhed i kodningen. Det føltes dog en smule underligt at genskabe noget, der allerede eksisterede, frem for at udvikle noget helt nyt.
+
+Den næste opgave handlede om at gøre en navigationsmenu mobilvenlig. Her skulle jeg først finde ud af, hvorfor menuen slet ikke fungerede på mobil. Det krævede fejlfinding og analyse af den eksisterende menu, før jeg kunne implementere en løsning. Det var en god øvelse i debugging og i at arbejde med andres løsninger, hvilket er en vigtig del af arbejdet i praksis.
+
+Herefter blev logo banneret udvidet med en ny idé, en flip card hover funktion på logoer med tilhørende case studies. Denne del var mere udfordrende, da den nye funktionalitet konfilktede med de eksisterende hover og drag funktioner. Det krævede en del debugging og justering af logikken, før det fungerede stabilt. Resultatet blev dog rigtig godt.
+
+Den største læring i denne uge kom dog fra arbejdet med HubDB. Jeg skulle omstrukturere artikelsystemet, så indholdet blev dynamisk og kun skulle redigeres ét sted. Ved at oprette data i HubDB og udvikle tre moduler, en sidemenu, en brødkrumme og en artikeloversigt, fik jeg arbejdet med dynamisk datavisning og URL baseret logik.
+
+Det var særligt motiverende, at jeg selv fik lov til at designe artikel oversigtssiden i Figma, og at vi endte med at vælge det design, jeg selv bedst kunne lide. At få implementeret sit eget design 1:1 og vide, at det bliver brugt på en rigtig virksomhedsside, giver en stærk følelse af faglig udvikling og ansvar.
+
+Overordnet har uge 6 været præget af både mindre opgaver og mere komplekst, databaseret arbejde. Jeg kan tydeligt mærke, at jeg bliver mere selvstændig i både tekniske beslutninger og designvalg.
+
+`.trim(),
+  },
 ];
 
 export default praktikUger;
