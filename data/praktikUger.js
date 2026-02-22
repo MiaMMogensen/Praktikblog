@@ -244,6 +244,48 @@ Overordnet har uge 6 været præget af både mindre opgaver og mere komplekst, d
 
 `.trim(),
   },
+  {
+    slug: "uge-7",
+    uge: "Uge 7",
+    titel: "Implementering i stor skala og dynamisk table of contents",
+    dato: "16.- 20. februar 2026",
+
+    spontanlog: [
+      "Upload af alle artikelinformationer til HubDB",
+      "Test af at databasen og modulerne fungerede korrekt",
+      "Indsættelse af brødkrumme og sidemenu modul på ca. 140 artikelsider",
+      "Implementering af artikel oversigtsside",
+      "Udvikling af dynamisk table of contents",
+      "Designidé: table of contents som progress bar",
+      "Implementering i custom HubSpot modul",
+      "Indsættelse af modulet på cirka 130 sider",
+      "Design af ny hero sektion til artikelsiderne i Figma",
+    ],
+
+    laeringsmaal: [
+      "Jeg vil lære at arbejde sikkert og selvstændigt i HubSpot ved at forstå CMS-strukturen, moduler, temaer og centrale funktioner",
+      "Jeg vil lære at udvikle webmoduler i HubSpot, som både er teknisk korrekt opbygget og designet med fokus på brugervenlighed og SEO",
+      "Jeg vil lære at opsætte dynamisk indhold på websitet ved at anvende HujbSpot’s API’er og automatiseringsmuligheder, så data som tal og logoer kan opdateres uden manuel indtastning.",
+      "Jeg vil lære at modtage, forstå og implementere feedback på både designvalg og tekniske løsninger og bruge det til at forbedre mine projekter.",
+    ],
+
+    refleksionslog: `
+Uge 7 startede med, at jeg uploadede alle artikelinformationerne til HubDB og testede, om alt fungerede korrekt. Herefter fik jeg selv lov til at indsætte de tre nye moduler på alle artikelsiderne. Det tog resten af mandagen og halvdelen af tirsdag, da jeg skulle igennem omkring 140 sider. Det var en tidskrævende proces, men det gav en god følelse at se, at både brødkrumme, sidemenu og oversigtsside nu var implementeret overalt, og at det er løsninger, jeg selv har udviklet.
+
+Det har været fedt at arbejde med en database i praksis, da det er noget, vi også har arbejdet med på studiet. Jeg følte derfor ikke, at jeg startede helt fra bunden, og mit forhåndskendskab gjorde, at jeg turde kaste mig ud i opgaven. Samtidig kunne jeg tydeligt mærke, at løsningen skaber værdi for virksomheden, da de nu kun skal redigere indhold ét sted i stedet for flere forskellige. Det gør systemet mere effektivt og mindre sårbart over for fejl.
+
+Herefter gik jeg igang med at udvikle en dynamisk table of contents, som automatisk henter alle h2 og h3 overskrifter fra artiklen og viser dem i en liste. Jeg fik selv lov til at komme med designidéer, og igen blev den løsning valgt, som jeg selv bedst kunne lide. Jeg foreslog at lave den som en form for progress bar, så man både kan se artiklens struktur og samtidig få en visuel fornemmelse af, hvor langt man er nået i teksten. Det syntes Frederik var en rigtig god idé, og vi gik videre med den.
+
+Det var en teknisk spændende opgave at få den dynamiske funktionalitet til at fungere korrekt i et custom HubSpot modul. Jo længere jeg kom i udviklingen, jo mere kunne jeg mærke, at idéen faktisk fungerede godt både visuelt og funktionelt. Det gør mig ekstra motiveret, når det er mine egne idéer, der bliver realiseret.
+
+Da modulet var færdigt, fik jeg igen lov til selv at implementere det på omkring 130 sider. Det er tidskrævende, men samtidig virkelig tilfredstillende at vide, at der løbende bliver implementeret flere og flere elementer på virksomhedens hjemmeside, som jeg har udviklet.
+
+Fredag begyndte jeg at designe en ny hero sektion til artikelsiderne i Figma. Det virker som om, vi nu arbejder mere helhedsorienteret med at optimere hele artikelsystemet, både designmæssigt og funktionelt. Jeg lavede flere forskellige versioner, og med lidt feedback fra Fredeik endte vi med at komme frem til et design der er rigtig fedt og en del mere luftigt end det nuværende.
+
+Overordnet har uge 7 været præget af stor implementering, selvstændighed og en følelse af stolthed over det arbejde, jeg har lavet. Det er virkelig motiverende at se, hvordan mine løsninger bliver brugt, og det giver mig en stærk følelse af, at jeg bidrager med noget værdifuldt for virksomheden.
+
+`.trim(),
+  },
 ];
 
 export default praktikUger;
