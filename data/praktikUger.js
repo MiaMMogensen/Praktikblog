@@ -286,6 +286,48 @@ Overordnet har uge 7 været præget af stor implementering, selvstændighed og e
 
 `.trim(),
   },
+  {
+    slug: "uge-8",
+    uge: "Uge 8",
+    titel: "Nye moduler, hovedopgave-idé og redesign af header",
+    dato: "23.- 27. februar 2026",
+
+    spontanlog: [
+      "Design af nyt modul/sektion til relaterede artikler",
+      "Valg af design og opstart af kodning",
+      "Udvikling af relaterede artikler som slider med loop-funktion",
+      "Debugging af slider-funktionalitet",
+      "Møde med Frederik, Johannes og Brian (CEO) om hovedopgave",
+      "Valg af idé: udvikling af partnerunivers",
+      "Implementering af relaterede artikler modul på cirka 130 sider",
+      "Deltagelse i Marketing Bio i Vue, Bruuns Galleri",
+      "Opstart på design af ny header i to rækker",
+      "Design af ny dropdown menu",
+      "Arbejde med inspiration og flere designversioner i Figma",
+    ],
+
+    laeringsmaal: [
+      "Jeg vil lære at arbejde sikkert og selvstændigt i HubSpot ved at forstå CMS-strukturen, moduler, temaer og centrale funktioner",
+      "Jeg vil lære at udvikle webmoduler i HubSpot, som både er teknisk korrekt opbygget og designet med fokus på brugervenlighed og SEO",
+      "Jeg vil lære at opsætte dynamisk indhold på websitet ved at anvende HujbSpot’s API’er og automatiseringsmuligheder, så data som tal og logoer kan opdateres uden manuel indtastning.",
+      "Jeg vil lære at modtage, forstå og implementere feedback på både designvalg og tekniske løsninger og bruge det til at forbedre mine projekter.",
+    ],
+
+    refleksionslog: `
+Uge 8 startede med design og udvikling af et nyt modul til relaterede artikler. Jeg fik selv lov til at komme med designidéer, og vi valgte en løsning at gå videre med. Hero sektionen var relativt simpel at kode, men relaterede artikler modulet var mere udfordrende, da det skulle fungere som en slider, der kunne køre i ring. Det skabte nogle tekniske problemer, som krævede debugging, før det fungerede stabilt.
+
+Tirsdag havde jeg et møde med Frederik, Johannes og Brian omkring min hovedopgave. Brian kom med to idéer, og vi valgte at arbejde videre med et partnerunivers, hvilket skal være en seperat side, hvor .legals kunder kan finde information om virksomhedens partnere. Det tiltaler mig, fordi det både indebærer design og programmering, som er de områder, jeg gerne vil have mest fokus på i min hovedopgave. Samtidig giver det mig mulighed for at arbejde mere frit med designet, da siden kan få en form for subidentitet uden at påvirke den eksisterende hjemmeside direkte. Det føles som en relevant og motiverende opgave i forhold til uddannelsens krav.
+
+Resten af tirsdagen arbejdede jeg videre med implementeringen af relaterede artikler modulet på alle artikelsiderne. Det er efterhånden blevet en rutine at skulle redigere over 130 sider, men det giver stadig en tilfredstillelse at vide, at løsningen bliver brugt bredt på hele hjemmesiden.
+
+Onsdag deltog jeg i Marketing Bio i Vue i Bruuns Galleri sammen med Frederik og Josephine. Det var spændende at høre oplæg fra forskellige fagpersoner i branchen. Selvom marketing ikke nødvendigvis er det område, jeg vil specialisere mig i, gav det gode indsigter i branchen og hvordan forskellige virksomheder arbejder strategisk.
+
+Torsdag og fredag arbejdede jeg med at designe en ny header/top menu til hjemmesiden. De ønsker en løsning i to rækker, hvor mindre væsentlige menupunkter rykkes op over den primære navigation. Jeg brugte en del tid på at finde inspiration og på at designe både selve headeren og de tilhørende dropdown menuer. En header er et centralt element på en hjemmeside, da det er her, brugeren navigerer fra, og derfor føles det som et stort ansvar at få lov til at redesigne den. Det er både lidt nervepirrende og motiverende, da det er et element, der er synligt på hele hjemmesiden.
+
+Overordnet har uge 8 været præget af både teknisk udvikling, kreativ frihed og begyndelsen på min hovedopgave, hvilket har givet mig en følelse af både ansvar og retning for resten af praktikforløbet.
+
+`.trim(),
+  },
 ];
 
 export default praktikUger;
