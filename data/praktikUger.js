@@ -328,6 +328,40 @@ Overordnet har uge 8 været præget af både teknisk udvikling, kreativ frihed o
 
 `.trim(),
   },
+  {
+    slug: "uge-9",
+    uge: "Uge 9",
+    titel: "Udvikling af ny header og fokus på praktikrapport",
+    dato: "2.- 6. marts 2026",
+
+    spontanlog: [
+      "Færdiggørelse af design til ny header",
+      "Opstart på kodning af headeren",
+      "Arbejde med responsiv tilpasning på forskellige skærmstørrelser",
+      "Debugging og justering af detaljer i funktionalitet og layout",
+      "Arbejde med dropdown menuer og navigation",
+      "Hjemmearbejdsdag fredag med fokus på praktikrapport",
+    ],
+
+    laeringsmaal: [
+      "Jeg vil lære at arbejde sikkert og selvstændigt i HubSpot ved at forstå CMS-strukturen, moduler, temaer og centrale funktioner",
+      "Jeg vil lære at udvikle webmoduler i HubSpot, som både er teknisk korrekt opbygget og designet med fokus på brugervenlighed og SEO",
+      "Jeg vil lære at modtage, forstå og implementere feedback på både designvalg og tekniske løsninger og bruge det til at forbedre mine projekter.",
+    ],
+
+    refleksionslog: `
+Uge 9 startede med, at jeg færdiggjorde designet til den nye header. Herefter gik jeg igang med at kode den. Det viste sig hurtigt at værre en større opgave. En header kan virke som et lille element på en hjemmeside, men den indeholder mange funktioner og skal fungere stabilt på tværs af alle sider og skærmstørrelser.
+
+Der er mange små detaljer, der hele tiden dukker op undervejs i udviklingen. Når man først begynder at implementere designet i koden, opdager man ofte små ting, der skal justeres, for at det hele spiller sammen. Derfor er meget af ugen gået med at finjustere funktionalitet, layout og responsiv adfærd. Selvom jeg ikke nåede at blive helt færdig med opgaven, føler jeg, at jeg er godt på vej, og jeg synes selv, at resultatet allerede ser rigtig godt ud.
+
+Det er også en opgave, hvor jeg virkelig kan mærke ansvaret, fordi headeren er et centralt element på hele hjemmesiden. Den skal fungere 100% før den kan implementeres. Det betyder, at jeg er meget opmærksom på at teste løsningen grundigt og sikre, at alle funktioner fungerer korrekt.
+
+Fredag arbejdede jeg hjemmefra med fokus på praktikrapporten. Jeg bad selv om en dag, hvor jeg kunne sidde mere koncentreret og skrive, da det kan være svært at finde tid til i en travl hverdag på kontoret. Jeg har skrevet lidt løbende under praktikken, men det var rart at kunne sætte flere timer af til at arbejde mere fokuseret med rapporten.
+
+Overordnet har uge 9 været præget af fordybelse i en større teknisk opgave samt fokus på at få arbejdet videre med praktikrapporten.
+
+`.trim(),
+  },
 ];
 
 export default praktikUger;
