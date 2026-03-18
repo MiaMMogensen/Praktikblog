@@ -362,6 +362,49 @@ Overordnet har uge 9 været præget af fordybelse i en større teknisk opgave sa
 
 `.trim(),
   },
+  {
+    slug: "uge-10",
+    uge: "Uge 10",
+    titel: "Færdiggørelse af header og afslutning på praktikforløbet",
+    dato: "9.- 13. marts 2026",
+
+    spontanlog: [
+      "Fortsættelse og færdiggørelse  af header",
+      "Test af header tirsdag",
+      "Mindre justeringer og endelig færdiggørelse onsdag",
+      "Implementering i website templates",
+      "Header deployed på hele hjemmesiden",
+      "Lavede præsentation af praktikopgaver",
+      "Delte præsentation med teamet",
+      "Sidste praktiksamtale med Frederik",
+      "Refleksion over praktikforløbet",
+    ],
+
+    laeringsmaal: [
+      "Jeg vil lære at arbejde sikkert og selvstændigt i HubSpot ved at forstå CMS-strukturen, moduler, temaer og centrale funktioner",
+      "Jeg vil lære at udvikle webmoduler i HubSpot, som både er teknisk korrekt opbygget og designet med fokus på brugervenlighed og SEO",
+      "Jeg vil lære at modtage, forstå og implementere feedback på både designvalg og tekniske løsninger og bruge det til at forbedre mine projekter.",
+    ],
+
+    refleksionslog: `
+Uge 10 startede med, at jeg fortsatte arbejdet med headeren. Den blev klar til test tirsdag, og efter nogle små justeringer var den færdig onsdag. Torsdag blev den implementeret på hjemmesiden. Det krævede, at jeg arbejde i templates og ikke bare kunne bruge drag and drop, men det gik godt, og headeren blev lagt ind på hele sitet. Det var en rigtig fed følelse at se et så centralt element gå live.
+
+Jeg blev også spurgt, om jeg havde lyst til at lave en præsentation af de opgaver, jeg har arbejdet med genem de sidste 10 uger. Det sagde jeg ja til, og det var en god måde at få samlet op på alt det, jeg har lavet. Jeg fik positiv feedback fra teamet, hvilket var virkelig rart og gav en følelse af, at mit arbejde er blevet set og værdsat.
+
+I løbet af ugen havde jeg også min sidste praktiksamtale med Frederik. Vi var begge enige om, at det har været et rigtig godt forløb, og at samarbejdet har fungeret godt hele vejen igennem. Jeg gav også udtryk for, at jeg har været glad for at være i praktik hos dem.
+
+Derudover havde jeg en snak med CEO'en omkring fremtiden, hvor han tilbød at anbefale mig videre, hvis jeg havde lyst. Det var virkelig motiverende at høre, og det bekræftede mig i, at jeg har gjort et godt stykke arbejde i løbet af praktikken. Det betyder meget at få anerkendelse for det, man laver.
+
+Når jeg ser tilbage på de 10 uger, har det været et rigtig lærerigt forløb, både fagligt og personligt. Jeg har fået erfaring med, hvordan det er at arbejde i en rigtig virksomhed, og hvordan hverdagen fungerer på en arbejdsplads. Samtidig har det også været en omstilling at gå fra studieliv til en fast arbejdsrytme fra 8-16, og det har til tider været hårdt og krævet meget energi.
+
+Jeg føler, at jeg har udviklet mig meget i løbet af praktikken, både i forhold til mine tekniske færdigheder og min evne til at arbejde selvstændigt og tage ansvar. Jeg har fået lov til at arbejde med mange forskellige opgaver, og det har været fedt at se mine løsninger blive implementeret og brugt på en rigtig hjemmeside.
+
+Alt i alt har det været et rigtig godt praktikforløb, hvor jeg har følt mig godt taget imod, og hvor mine idéer er blevet lyttet til. Det har været 10 spændende uger, som er gået hurtigt, og det tager jeg som et tegn på, at jeg har været det rigtige sted.
+
+Nu er næste skridt hovedopgaven, som bliver en spændende, men hård, afslutning på uddannelsen.
+
+`.trim(),
+  },
 ];
 
 export default praktikUger;
